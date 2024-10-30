@@ -1,0 +1,219 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.kuicklist-main-container {
+	margin: 0 auto;
+	padding: 40px;
+	max-width: 1200px;
+}
+
+.kuicklist_page_title h1 {
+	font-weight: 300;
+	margin-bottom: 0px;
+	color: #273469;
+}
+
+#lkpr-admin-body .kuicklist-main-container {
+	font-family: 'Raleway', arial, helvetica !important;
+}
+
+.kuicklist_logo {
+	width: 200px;
+	margin-bottom: 25px;
+}
+
+.kuicklist-main-container .dashboard-menu {
+	height: auto;
+	font-family: "Raleway", 'arial';
+	font-size: 1.8em;
+	color: #fff;
+	margin-top: 40px;
+}
+
+.kuicklist-main-container .dashboard-menu ul li:first-child {
+	border-bottom: solid 5px #0fc253;
+}
+
+.kuicklist-main-container .dashboard-menu ul li:nth-child(2) {
+	border-bottom: solid 5px #0fc253;
+}
+
+.kuicklist-main-container .dashboard-menu ul li:nth-child(3) {
+	border-bottom: solid 5px #0fc253;
+}
+
+.kuicklist-main-container .dashboard-menu ul li:nth-child(4) {
+	border-bottom: solid 5px #0fc253;
+}
+
+.kuicklist-main-container .dashboard-menu ul li:nth-child(5) {
+	border-bottom: solid 5px #0fc253;
+}
+
+.kuicklist-main-container .dashboard-menu li {
+	width: 200px;
+	display: inline-block;
+	height: 130px;
+	background: #fff;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.kuicklist-main-container .dashboard-menu li a {
+	text-decoration: none;
+	color: #273469;
+}
+
+.kuicklist-main-container .dashboard-menu i {
+	display: block;
+	line-height: 2.2em;
+	color: #10c254;
+	font-size: 40px;
+}
+
+.kuicklist_logo a {
+	padding: 12px 0px 0px 0px;
+}
+
+.kuicklist_logo img {
+	width: 100%;
+	height: auto;
+}
+
+.kuicklist_page_title {
+	font-family: 'Raleway', arial, helvetica !important;
+	/*text-transform: uppercase;*/
+}
+
+.kuicklist_page_title p {
+	/*font-family: 'Open Sans', arial, helvetica;*/
+	text-transform: none;
+}
+
+.kuicklist-mt-10 {
+	margin-top: 10px;
+}
+
+.kuicklist-main-container a {
+	text-decoration: none;
+}
+
+.kuicklist-mt-20 {
+	margin-top: 20px;
+}
+
+.kuicklist-form {
+	width: 90%;
+	/*font-family: 'Open Sans', arial, helvetica !important;*/
+}
+
+.kuicklist-form .form-label fieldset {
+	position: relative;
+	margin-bottom: 3px;
+}
+
+.kuicklist-form fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.kuicklist-form .form-label fieldset:first-child input {
+	border-radius: 4px 4px 0 0;
+}
+
+.kuicklist-form input {
+	display: block;
+	width: 100%;
+	height: 3em;
+	padding: 16px 8px;
+	border: 0;
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1;
+	background: rgba(255, 255, 255, 0.97);
+	color: #f45213;
+	outline: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	/* margin-bottom: 5px; */
+	border-radius: 3px;
+}
+
+.kuicklist-form .form-label label {
+	position: absolute;
+	top: 15px;
+	left: 8px;
+	color: #2c2c2c;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.kuicklist-button.kuicklist-button-block {
+	width: 100%;
+}
+
+.kuicklist-button.kuicklist-button-small {
+	padding: 10px 20px 12px 20px;
+	font-size: 12px;
+}
+
+.kuicklist-button {
+	align-self: center;
+	padding: 20px 30px 18px 30px;
+	color: white;
+	font-family: 'Open Sans', arial;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+	background: #09c04f !important;
+	border-radius: 3px;
+	transition: all 0.1s ease-in-out;
+	cursor: pointer;
+	display: inline-block;
+	border: 0;
+}
+
+.kuicklist-main-container .kuicklist-form .form-css-label input[data-empty="false"]+label,
+.form-css-label input:valid+label,
+.form-css-label input:focus+label {
+	color: #283469;
+}
+
+.kuicklist-form input {
+	color: #2c2c2c;
+}
+
+.kuicklist-main-container .start_message {
+	padding: 20px;
+	border-radius: 2px;
+	padding-left: 0px;
+}
+
+.kuicklist-main-container .back-btn {
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+
+.kuicklist-main-container .back-btn a {
+	color: #273469;
+}
+
+
+.kuicklist-no-optin-checkbox input[type=checkbox]:checked:focus {
+	border: 2px red;
+	box-shadow: none !important;
+	
+}
